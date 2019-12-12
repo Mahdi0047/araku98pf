@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -22,7 +23,7 @@ int main(){
             if (a == 2){
                 cout << a << endl;
             }else {
-                for (int i = 2; i < a; i ++){
+                for (int i = 2; i <= sqrt(a); i ++){
                     if (a % i == 0){
                         prime = false;
                         break;
