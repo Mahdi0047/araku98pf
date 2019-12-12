@@ -28,16 +28,12 @@ float sqr(float f){
     }else{
         float i = pow(10, digitCount(f)) - 1;
         while (i > 0.000001){
-            while (pow(sqr + i, 2) < f){
-                if(pow(sqr, 2) == f)
+            while (pow(sqr + i, 2) <= f){
+                if(pow(sqr + i, 2) == f){
+                    sqr += i;
                     break;
+                }
                 sqr += i;
-            }
-            if(pow(sqr, 2) == f)
-                break;
-            if(pow(sqr + i, 2) == f){
-                sqr += i;
-                break;
             }
             i /= 10;
         }
