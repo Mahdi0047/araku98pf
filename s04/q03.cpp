@@ -22,10 +22,12 @@ int main()
 
     cin >> n;
 
-    for (int i = 0; i <= n; i++)
+    getline(cin, s[0]);
+
+    for (int i = 0; i < n; i++)
         getline(cin, s[i]);
 
-    for (int i = 1; i <= n; i++){
+    for (int i = 0; i < n; i++){
         for (int j = 0; j < s[i].size(); j++){
             if (isSpace || j == 0){
                 s[i][j] = toUp(s[i][j]);
@@ -40,7 +42,7 @@ int main()
         }
     }
 
-    for (int i = 1; i <= n; i++)
+    for (int i = 0; i < n; i++)
         cout << s[i] << endl;
     //system("pause");
     //return 0;
