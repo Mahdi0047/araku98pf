@@ -1,3 +1,5 @@
+//prints maximum, minimum and average of a group of numbers
+
 #include <iostream>
 #include <iomanip>
 

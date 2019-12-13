@@ -1,3 +1,8 @@
+/*changes yymm birth date to:
+*saal: yy
+*mah: mm
+*/
+
 #include <iostream>
 
 using namespace std;

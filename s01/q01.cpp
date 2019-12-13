@@ -1,16 +1,18 @@
+//calculating factorial of a number
+
 #include <iostream>
 
 using namespace std;
 
 int main(){
-    int number, factorielle;
-    factorielle = 1;
+    int number, factorial;
+    factorial = 1;
     //cout << "enter a number: ";
     cin >> number;
     for (number; number >= 1; number--){
-        factorielle *= number;
+        factorial *= number;
     }
-    cout << factorielle << endl;
+    cout << factorial << endl;
     //system("pause");
     //return 0;
 }

@@ -1,3 +1,5 @@
+//khayyam pascal triangle
+
 #include <iostream>
 
 using namespace std;

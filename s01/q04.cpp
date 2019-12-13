@@ -1,3 +1,5 @@
+//determines if sum of divisors of a number (except the number itself) are equal that number
+
 #include <iostream>
 
 using namespace std;
@@ -7,7 +9,7 @@ int main(){
     sum = 0;
     //cout << "enter desired number: ";
     cin >> number;
-	
+
     for (int i = 1; i < number; i++){
         if (number % i == 0){
             sum += i;
@@ -18,7 +20,7 @@ int main(){
     }else{
         cout << "NO";
     }
-	
+
     //system("pause");
     //return 0;
 }

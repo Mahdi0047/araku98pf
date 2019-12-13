@@ -1,3 +1,5 @@
+//makes first letter of words uppercase and other letters lowercase
+
 #include <iostream>
 
 using namespace std;

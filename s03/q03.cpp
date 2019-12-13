@@ -1,3 +1,5 @@
+//printing prime numbers within desired range
+
 #include <iostream>
 #include <cmath>
 

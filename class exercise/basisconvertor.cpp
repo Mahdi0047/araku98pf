@@ -1,3 +1,5 @@
+//converting numbers with bases under 10 to decimal
+
 #include <iostream>
 #include <cmath>
 

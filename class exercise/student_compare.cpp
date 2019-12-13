@@ -1,3 +1,5 @@
+//getting a list of students with their grades and calculating average of students with a particular name
+
 #include <iostream>
 #include <iomanip>
 

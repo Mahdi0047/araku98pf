@@ -1,3 +1,5 @@
+//prints the series based on serie.png file
+
 #include <iostream>
 
 using namespace std;

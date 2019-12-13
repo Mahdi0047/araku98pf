@@ -1,3 +1,5 @@
+//prints woo...oow with certain amount of 'o's
+
 #include <iostream>
 
 using namespace std;

@@ -1,3 +1,5 @@
+//prints repetitive numbers between 10 numbers and amount of repetition
+
 #include <iostream>
 
 using namespace std;

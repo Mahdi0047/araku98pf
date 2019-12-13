@@ -1,3 +1,5 @@
+//solves quadratic equation
+
 #include <iostream>
 #include <iomanip>
 

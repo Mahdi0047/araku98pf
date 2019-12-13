@@ -1,3 +1,5 @@
+//prints 2 diamonds
+
 #include <iostream>
 
 using namespace std;
