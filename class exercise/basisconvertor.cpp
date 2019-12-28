@@ -26,7 +26,7 @@ int tootherbase(int num, int base){
 
 bool checkbase(int num, int base){
     while (num > 0){
-        if (num % 10 > base){
+        if (num % 10 >= base){
             return true;
         }
         num /= 10;
