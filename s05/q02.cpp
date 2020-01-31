@@ -1,4 +1,4 @@
-//converting number a to b basis and checking if sum of one in between numbers are equal
+//converting number a to b basis and checking if sum of one in between digits are equal
 
 #include <iostream>
 
