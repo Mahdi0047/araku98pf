@@ -20,11 +20,11 @@ int main()
 {
     bool isSpace = false;
     int n;
-    string s[11];
+    string s[10];
 
     cin >> n;
 
-    getline(cin, s[0]);
+    cin.ignore();
 
     for (int i = 0; i < n; i++)
         getline(cin, s[i]);
